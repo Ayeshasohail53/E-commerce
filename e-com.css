@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Chiron+GoRound+TC:wght@200..900&family=Libertinus+Keyboard&family=Story+Script&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1024px;
+    height: auto;
+    margin: auto;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+header{
+    width: 1024px;
+    height: 10px;
+    background-color: rgb(255, 247, 247);
+}
+
+
+nav{
+    width: 1024px;
+    height: 100px;
+    background-color:  rgb(9, 9, 9);
+    background-size: cover;
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 40px;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+
+nav ul li ul li{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 600px;
+    background-color: rgb(21, 19, 19);
+    color: rgb(15, 14, 14);
+    position: relative;
+}
+
+
+nav ul li ul{
+    position: absolute;
+    left: 0;
+    top: 35px;
+    z-index: 1;
+    /* display: none; */
+}
+
+
+
+nav ul li ul li a{
+    padding-inline: 17px;
+    border-bottom:2px solid rgb(249, 244, 244) ;
+    background-color: white;
+    color: black;
+}
+
+nav ul li:hover ul{
+    display: block;
+    /* color: black; */
+}
+
+
+nav h2{
+    color: rgb(251, 250, 250);
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+
+nav ul a{
+    text-decoration: none;
+    display:inline;
+    color: rgb(252, 245, 245);
+    list-style-type: none;
+    padding: 10px;
+    font-family: "Caudex", serif;
+    position: relative;
+}
+ 
+
+
+nav ul li a::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0px;
+    right: 0;
+    transition: 0.4s;
+    background-color: rgb(255, 248, 248);
+    box-shadow: 10px 0px 0px rgb(249, 248, 247);
+
+}
+
+
+nav a:hover::before{
+    width: 100%;
+    left: 0;
+}
+
+nav ul + ul li a{
+    color: rgb(249, 244, 244);
+
+} 
+.section{
+     width: 1024px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(254, 253, 253);
+    position: relative;
+
+}
+
+.model img{
+    width: 270px;
+    height: 350px;
+    background-size: cover;
+    margin-left: 600px;
+    margin-top: -250px;
+    
+}
+
+.section h4{
+    margin-left: 100px;
+    padding-top: 150px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.section h1{
+    margin-left: 100px;
+    padding-top: 15px;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.section a{
+    text-decoration: none;
+    color: rgb(17, 14, 14);
+    margin-left: 100px;
+    border: 2px solid rgb(23, 22, 22);
+    border-radius: 10px;
+    margin-top: 30px;
+     padding: 8px;
+    transition: 0.3s;
+}
+
+.section a:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.main{
+    width: 1024px;
+    height: auto;
+    background-color : rgb(254, 254, 253);
+    margin: auto;
+    position: relative;
+}
+
+.item1 img{
+    width: 350px;
+    height: 230px;
+    background-size: cover;
+    margin-left: 600px;
+    margin-top: -300px;
+    
+}
+
+
+.item2 img{
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+/* 
+.item3 img{
+     width: 270px;
+    height: 350px;
+    background-size: cover;
+    margin-left: 670px;
+    margin-top: -250px;
+
+} */
+.text h3{
+    padding-top: 70px;
+    margin-left: 100px;
+    font-size:40px;
+    padding-bottom: 8px;
+     font-family: "Caudex", serif;
+    /* font-family: initial; */
+}
+
+.text h6{
+    margin-left: 150px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+
+}
+
+.para p{
+    margin-left: 40px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.disc h4{
+    margin-left: 500px;
+    font-size: 60px;
+    color: black;
+    padding-top: -300px;
+    margin-top: -220px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 200px;
+
+}
+
+.product{
+    width: 1024px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(249, 249, 248); 
+    position: relative;
+}
+.head h2{
+    margin-left: 350px;
+    padding-top: 10px;
+    font-size: 38px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.product1 img{
+    width: 240px;
+    height: 380px;
+    background-size: cover;
+    margin-left: 80px;
+    /* margin-top: 15px; */
+    padding-top: 80px;
+}
+
+
+
+.product2 img{
+    width: 240px;
+    height: 300px;
+    background-size: cover;
+    margin-left: 390px;
+    margin-top: -550px;
+    margin-bottom: 18px;
+}
+
+.price{
+    font-size: 20px;
+    color: rgb(90, 87, 87);
+    margin-left: 90px;
+    margin-top: -10px;
+}   
+
+.pp{
+    font-size: 20px;
+    color: rgb(89, 87, 87);
+    margin-left: 400px;
+    margin-top:-50px ;
+    margin-bottom:100px ;
+
+}
+
+.product3 img{
+    width: 240px;
+    height: 290px;
+    background-size: cover;
+    margin-left: 700px;
+    margin-top: -740px;
+    margin-bottom: 175px;
+}
+
+.p3{
+     font-size: 20px;
+    color: rgb(89, 87, 87);
+    margin-left: 720px;
+    margin-top:-170px ;
+    margin-bottom:110px ;
+}
+
+.product4 img{
+     width: 240px;
+    height: 300px;
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: -50px;
+    margin-bottom: 175px;
+
+}
+
+.p4{
+     font-size: 20px;
+    color: rgb(89, 87, 87);
+    margin-left: 90px;
+    margin-top:-160px ;
+    margin-bottom:100px ;
+}
+
+.product5 img{
+    width: 240px;
+    height: 300px;
+    background-size: cover;
+    margin-left: 390px;
+    margin-top: -550px;
+    margin-bottom: 175px;
+}
+
+.p5{
+    font-size: 20px;
+    color: rgb(89, 87, 87);
+    margin-left: 400px;
+    margin-top:-160px ;
+    margin-bottom:100px ;
+}
+
+.product6 img{
+     width: 240px;
+    height: 300px;
+    background-size: cover;
+    margin-left: 700px;
+    margin-top: -550px;
+    margin-bottom: 175px;
+}
+.p6{
+    font-size: 20px;
+    color: rgb(89, 87, 87);
+    margin-left: 720px;
+    margin-top:-160px ;
+    margin-bottom:100px ;
+}
+
+.footer{
+     width: 1024px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(239, 235, 235);
+    box-sizing: border-box;
+}
+
+.foot{
+     width: 1024px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(27, 24, 24);
+    box-sizing: border-box;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+
+.foot b{
+    margin-left: 100px;
+    /* margin-top: 20px; */
+}
+
+.t p{
+    color: grey;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+.r p{
+    color: grey;
+    margin-left: 100px;
+    padding-top: 5px;
+}
+.s p{
+    color: grey;
+    margin-left: 100px;
+    padding-top: 5px;
+}
+
+.f p{
+    color: grey;
+    margin-left: 100px;
+    padding-top: 5px;
+}
+
+.GT{
+    margin-left: 370px;
+
+}
+
+.icons ul li{
+     list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-top: 30px;  
+}
+
+.icons a{
+    color: white;
+    margin-left: 700px;
+
+}
+
+.icon  ul{
+    display: inli;
+}
+
+
